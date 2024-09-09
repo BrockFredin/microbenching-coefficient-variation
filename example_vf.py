@@ -4,10 +4,9 @@ import random
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np  # For mean and standard deviation calculations
+import numpy as np
 from glob import glob
 from os.path import basename, join
-
 
 class Benchmark:
     """Measurements from a single benchmark"""
