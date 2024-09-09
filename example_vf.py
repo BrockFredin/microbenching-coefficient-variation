@@ -41,7 +41,6 @@ class Benchmark:
             self.measurements = json.load(f)
         return self.measurements
 
-
 def get_benchmarks(data_dir):
     """Get all the jsons we can find and try to parse their names"""
     return [Benchmark(f) for f in glob('{}/*.json'.format(data_dir))]
