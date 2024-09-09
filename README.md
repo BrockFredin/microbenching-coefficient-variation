@@ -1,3 +1,34 @@
+
+## Getting Started
+
+Welcome to the microbenchmarking-coefficient-variation. This modified codebase uses only timeseries data related to JSON decoding and encoding.
+
+## Folder Structure
+
+The workspace contains two folders by default, where:
+
+- `example_ce.py`: the script calculates the coefficient of variation 
+
+To add the coefficient of variation (CV) calculation to the script, we will compute the CV for each fork in the plot function. This involves calculating the mean and standard deviation of the execution times and then using these to compute the CV. The CV will then be displayed in the plot title for each fork.
+
+## Changes Made:
+
+- Import numpy: I added numpy (import numpy as np) to handle calculations for the mean and standard deviation.
+
+- Calculate the CV: For each fork, the mean and standard deviation are computed using np.mean(fork) and np.std(fork). The coefficient of variation is then calculated as:
+
+```markdown
+```python
+cv = (std_dev_exec_time / mean_exec_time) * 100  # Expressed as a percentage
+
+If the mean execution time is zero (an edge case), we handle it by setting cv = 0 to avoid division by zero.
+
+- Display CV: The CV is displayed in the title of each subplot for the corresponding fork:
+
+```markdown
+```python
+axs[i].set_title('Fork: {} (CV: {:.2f}%)'.format(i, cv))
+
 # Dataset for the ICPE 2023 Data Challenge track
 
 Information about the track:
@@ -11,12 +42,12 @@ Questions about the dataset can be asked by opening issues on this repository, o
 
 ## Usage example
 
-In the python script [example_viz.py](example_viz.py) you can find an example of how to read the data and generate a simple plot for a random benchmark in the dataset. The script requires `pandas` and `matplotlib`:
+In the python script [example_ce.py](example_ce.py) you can find an example of how to read the data and generate a simple plot for a random benchmark in the dataset. The script requires `pandas` and `matplotlib`:
 ```
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python example_viz.py
+python example_ce.py
 ```
 
 ---
