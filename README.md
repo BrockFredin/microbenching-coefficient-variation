@@ -5,9 +5,10 @@ Welcome to the microbenchmarking-coefficient-variation.  This modified codebase 
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
+The workspace contains two Python scripts by default, where:
 
 - `example_ce.py`: the script calculates the coefficient of variation 
+- `example_viz.py`: this script is designed to visualize performance measurements from a set of Java microbenchmarks stored in JSON files
 
 To add the coefficient of variation (CV) calculation to the script, we will compute the CV for each fork in the plot function.  This involves calculating the mean and standard deviation of the execution times and then using these to compute the CV. The CV will then be displayed in the plot title for each fork.
 
