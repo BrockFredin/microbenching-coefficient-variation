@@ -23,10 +23,10 @@ To add the CV calculation to the script, we will compute the CV for each fork in
 [View paper](https://www.dropbox.com/scl/fi/49spt8un3ekottvbnxvjv/paper-review.pdf?rlkey=7qmlfwttb44nfttd05n5b1hif&st=d66pf0ei&dl=0)
 
 - `independent-analysis.pdf`: this document presents my replicated results, specifically focusing on the analysis of the coefficient of variation (CV), highlighting how performance consistency fluctuates across the benchmarked fork instances:
-[View paper](https://www.dropbox.com/scl/fi/wfahq13we1hs4gr5ky3lo/independent-analysis.pdf?rlkey=adxur4gtnxahixjibe9y6v1ft&st=354zqy6g&dl=0)
+[View paper](https://www.dropbox.com/scl/fi/wfahq13we1hs4gr5ky3lo/independent-analysis.pdf?rlkey=adxur4gtnxahixjibe9y6v1ft&st=ipb4w279&dl=0)
 
 - `custom-analysis.pdf`: this document displays how varying the number of forks in JMH microbenchmarks affects the consistency of performance measurements when a steady-state is reached:
-[View paper](https://www.dropbox.com/scl/fi/49spt8un3ekottvbnxvjv/paper-review.pdf?rlkey=7qmlfwttb44nfttd05n5b1hif&st=cgjypptp&dl=0)
+[View paper](https://www.dropbox.com/scl/fi/tn9z4umls8nzonc998n02/custom-analysis.pdf?rlkey=ietqjg47hg3dmcpg9rq5ywj8t&st=ercsv7o0&dl=0)
 
 ## Changes Made:
 
