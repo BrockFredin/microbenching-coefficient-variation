@@ -21,15 +21,15 @@ To add the CV calculation to the script, we will compute the CV for each fork in
 
 - `paper-review.pdf`: this document provides a general review of the Traini Paper, focusing on its key findings, methodology, and implications for performance benchmarking in Java software:
 
-https://www.dropbox.com/scl/fi/49spt8un3ekottvbnxvjv/paper-review.pdf?rlkey=7qmlfwttb44nfttd05n5b1hif&st=d66pf0ei&dl=0
+[paper:](https://www.dropbox.com/scl/fi/49spt8un3ekottvbnxvjv/paper-review.pdf?rlkey=7qmlfwttb44nfttd05n5b1hif&st=d66pf0ei&dl=0)
 
 - `independent-analysis.pdf`: this document presents my replicated results, specifically focusing on the analysis of the coefficient of variation (CV), highlighting how performance consistency fluctuates across the benchmarked fork instances:
 
-https://www.dropbox.com/scl/fi/wfahq13we1hs4gr5ky3lo/independent-analysis.pdf?rlkey=adxur4gtnxahixjibe9y6v1ft&st=354zqy6g&dl=0
+[paper:](https://www.dropbox.com/scl/fi/wfahq13we1hs4gr5ky3lo/independent-analysis.pdf?rlkey=adxur4gtnxahixjibe9y6v1ft&st=354zqy6g&dl=0)
 
 - `custom-analysis.pdf`: this document displays how varying the number of forks in JMH microbenchmarks affects the consistency of performance measurements when a steady-state is reached:
 
-https://www.dropbox.com/scl/fi/49spt8un3ekottvbnxvjv/paper-review.pdf?rlkey=7qmlfwttb44nfttd05n5b1hif&st=cgjypptp&dl=0
+[paper:](https://www.dropbox.com/scl/fi/49spt8un3ekottvbnxvjv/paper-review.pdf?rlkey=7qmlfwttb44nfttd05n5b1hif&st=cgjypptp&dl=0)
 
 ## Changes Made:
 
