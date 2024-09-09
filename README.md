@@ -5,7 +5,7 @@ Welcome to the microbenchmarking-coefficient-variation.  This modified codebase 
 
 ## Folder Structure
 
-The workspace contains two Python scripts by default, where:
+The workspace contains three Python scripts by default, where:
 
 - `example_ce.py`: this script calculates the coefficient of variation (CV)
 - `example_vf.py`: this script demonstrates how dynamically adjusting the fork count influences the CV, providing insights into the impact of changing fork instances on performance consistency
