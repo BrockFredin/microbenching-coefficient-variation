@@ -13,6 +13,10 @@ The workspace contains three Python scripts by default, where:
 
 To add the CV calculation to the script, we will compute the CV for each fork in the plot function.  This involves calculating the mean and standard deviation of the execution times and then using these to compute the CV. The CV will then be displayed in the plot title for each fork.
 
+## How to Run
+
+- `python3 example_vf.py`: this command will display the performance consistency across a series of fork instance time series
+
 ## Changes Made:
 
 - Import numpy: I added numpy (import numpy as np) to handle calculations for the mean and standard deviation.
