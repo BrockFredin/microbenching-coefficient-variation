@@ -20,6 +20,7 @@ To add the coefficient of variation (CV) calculation to the script, we will comp
 ```markdown
 ```python
 cv = (std_dev_exec_time / mean_exec_time) * 100  # Expressed as a percentage
+```
 
 If the mean execution time is zero (an edge case), we handle it by setting cv = 0 to avoid division by zero.
 
@@ -28,6 +29,7 @@ If the mean execution time is zero (an edge case), we handle it by setting cv = 
 ```markdown
 ```python
 axs[i].set_title('Fork: {} (CV: {:.2f}%)'.format(i, cv))
+```
 
 # Dataset for the ICPE 2023 Data Challenge track
 
