@@ -1,7 +1,7 @@
 
 ## Getting Started
 
-Welcome to the microbenchmarking-coefficient-variation. This modified codebase uses only timeseries data related to JSON decoding and encoding.
+Welcome to the microbenchmarking-coefficient-variation.  This modified codebase uses only timeseries data related to JSON decoding and encoding.
 
 ## Folder Structure
 
@@ -9,13 +9,13 @@ The workspace contains two folders by default, where:
 
 - `example_ce.py`: the script calculates the coefficient of variation 
 
-To add the coefficient of variation (CV) calculation to the script, we will compute the CV for each fork in the plot function. This involves calculating the mean and standard deviation of the execution times and then using these to compute the CV. The CV will then be displayed in the plot title for each fork.
+To add the coefficient of variation (CV) calculation to the script, we will compute the CV for each fork in the plot function.  This involves calculating the mean and standard deviation of the execution times and then using these to compute the CV. The CV will then be displayed in the plot title for each fork.
 
 ## Changes Made:
 
 - Import numpy: I added numpy (import numpy as np) to handle calculations for the mean and standard deviation.
 
-- Calculate the CV: For each fork, the mean and standard deviation are computed using np.mean(fork) and np.std(fork). The coefficient of variation is then calculated as:
+- Calculate the CV: For each fork, the mean and standard deviation are computed using np.mean(fork) and np.std(fork).  The coefficient of variation is then calculated as:
 
 ```markdown
 ```python
