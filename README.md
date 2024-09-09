@@ -19,7 +19,7 @@ To add the CV calculation to the script, we will compute the CV for each fork in
 
 ## Changes Made:
 
-- Import numpy: I added numpy (import numpy as np) to handle calculations for the mean and standard deviation.
+- Import numpy: I added numpy (import numpy as np) to handle calculations for the mean and standard deviation
 
 - Calculate the CV: For each fork, the mean and standard deviation are computed using np.mean(fork) and np.std(fork).  The coefficient of variation is then calculated as:
 
