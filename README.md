@@ -11,7 +11,7 @@ The workspace contains three Python scripts by default, where:
 - `example_vf.py`: this script demonstrates how dynamically adjusting the fork count influences the CV, providing insights into the impact of changing fork instances on performance consistency
 - `example_viz.py`: this script is designed to visualize performance measurements from a set of Java microbenchmarks stored in JSON files
 
-To add the coefficient of variation (CV) calculation to the script, we will compute the CV for each fork in the plot function.  This involves calculating the mean and standard deviation of the execution times and then using these to compute the CV. The CV will then be displayed in the plot title for each fork.
+To add the CV calculation to the script, we will compute the CV for each fork in the plot function.  This involves calculating the mean and standard deviation of the execution times and then using these to compute the CV. The CV will then be displayed in the plot title for each fork.
 
 ## Changes Made:
 
