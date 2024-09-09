@@ -19,7 +19,6 @@ To add the coefficient of variation (CV) calculation to the script, we will comp
 - Calculate the CV: For each fork, the mean and standard deviation are computed using np.mean(fork) and np.std(fork).  The coefficient of variation is then calculated as:
 
 ```markdown
-```python
 cv = (std_dev_exec_time / mean_exec_time) * 100  # Expressed as a percentage
 ```
 
@@ -28,7 +27,6 @@ If the mean execution time is zero (an edge case), we handle it by setting cv = 
 - Display CV: The CV is displayed in the title of each subplot for the corresponding fork:
 
 ```markdown
-```python
 axs[i].set_title('Fork: {} (CV: {:.2f}%)'.format(i, cv))
 ```
 
