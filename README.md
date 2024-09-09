@@ -20,7 +20,7 @@ To add the CV calculation to the script, we will compute the CV for each fork in
 ## Analysis
 
 - `paper-review.pdf`: this document provides a general review of the Traini Paper, focusing on its key findings, methodology, and implications for performance benchmarking in Java software:
-[View paper](https://www.dropbox.com/scl/fi/49spt8un3ekottvbnxvjv/paper-review.pdf?rlkey=7qmlfwttb44nfttd05n5b1hif&st=d66pf0ei&dl=0)
+[View paper](https://www.dropbox.com/scl/fi/gv0c2kfj8dj24vdz8ytdy/paper-review.pdf?rlkey=pkv84aro0lkhr7edg27dk6q5o&st=0r40ei24&dl=0)
 
 - `independent-analysis.pdf`: this document presents my replicated results, specifically focusing on the analysis of the CV, highlighting how performance consistency fluctuates across the benchmarked fork instances:
 [View paper](https://www.dropbox.com/scl/fi/wfahq13we1hs4gr5ky3lo/independent-analysis.pdf?rlkey=adxur4gtnxahixjibe9y6v1ft&st=ipb4w279&dl=0)
