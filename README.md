@@ -22,7 +22,7 @@ To add the CV calculation to the script, we will compute the CV for each fork in
 - `paper-review.pdf`: this document provides a general review of the Traini Paper, focusing on its key findings, methodology, and implications for performance benchmarking in Java software:
 [View paper](https://www.dropbox.com/scl/fi/49spt8un3ekottvbnxvjv/paper-review.pdf?rlkey=7qmlfwttb44nfttd05n5b1hif&st=d66pf0ei&dl=0)
 
-- `independent-analysis.pdf`: this document presents my replicated results, specifically focusing on the analysis of the coefficient of variation (CV), highlighting how performance consistency fluctuates across the benchmarked fork instances:
+- `independent-analysis.pdf`: this document presents my replicated results, specifically focusing on the analysis of the CV, highlighting how performance consistency fluctuates across the benchmarked fork instances:
 [View paper](https://www.dropbox.com/scl/fi/wfahq13we1hs4gr5ky3lo/independent-analysis.pdf?rlkey=adxur4gtnxahixjibe9y6v1ft&st=ipb4w279&dl=0)
 
 - `custom-analysis.pdf`: this document displays how varying the number of forks in JMH microbenchmarks affects the consistency of performance measurements when a steady-state is reached:
@@ -32,7 +32,7 @@ To add the CV calculation to the script, we will compute the CV for each fork in
 
 - Import numpy: I added numpy (import numpy as np) to handle calculations for the mean and standard deviation
 
-- Calculate the CV: For each fork, the mean and standard deviation are computed using np.mean(fork) and np.std(fork).  The coefficient of variation is then calculated as:
+- Calculate the CV: For each fork, the mean and standard deviation are computed using np.mean(fork) and np.std(fork).  The CV is then calculated as:
 
 ```markdown
 cv = (std_dev_exec_time / mean_exec_time) * 100  # Expressed as a percentage
