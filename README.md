@@ -28,7 +28,7 @@ To add the CV calculation to the script, we will compute the CV for each fork in
 - `custom-analysis.pdf`: this document displays how varying the number of forks in JMH microbenchmarks affects the consistency of performance measurements when a steady-state is reached:
 [View paper](https://www.dropbox.com/scl/fi/tn9z4umls8nzonc998n02/custom-analysis.pdf?rlkey=ietqjg47hg3dmcpg9rq5ywj8t&st=ercsv7o0&dl=0)
 
-- `custom-analysis-teardown.pdf`: this document displays how the teardown phase affects the consistency of performance measurements when a steady-state is reached:
+- `custom-analysis-teardown.pdf`: this document displays how the teardown phase influences subsequent executions or the stability of the performance measurements collected during the steady-state:
 [View paper](https://www.dropbox.com/scl/fi/eulmh1ykub2vflw65r8rl/custom-analysis-teardown.pdf?rlkey=meqwpen576s8fyj0xw06estsm&st=pw3w18ur&dl=0)
 
 ## Changes Made:
